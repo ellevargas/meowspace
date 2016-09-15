@@ -29,15 +29,10 @@ nav li {
 nav a {
   font-weight: bold;
   font-size: 2rem;
+  border: black 3px solid;
+  padding: 10px;
   text-decoration: none;
 }
-
-/*main {
-  clear: both;
-  padding: 25px;
-
-  /*margin: 10px 75px 50px 50px;*/
-
 
 main h1 {
   font-size: 2.75rem;
@@ -50,52 +45,57 @@ main h1 {
 
 main h2 {
   font-size: 2.25rem;
-  margin: 10px 0 10px 0px;
-  /*margin-top: 20px;
-  margin-bottom: 10px;*/
+  margin: 15px 0 10px 0px;
 }
 
 article {
-  border: black 2px solid;
+  border: black 3px solid;
   padding: 25px 50px 50px 50px;
 }
 
-p {
-  font-size: 1.5rem;
+.posts {
+  width: 63%;
+  float: left;
+  padding: 25px 0 25px 75px;
+}
+
+main h3  {
+  font-size: 1.75rem;
+  padding: 10px 0 25px 0;
 }
 
 h3~p {
   border: black 1px solid;
   font-size: 1.5rem;
-  padding: 10px
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 25px 0;
 }
 
-.posts {
-  width: 50%;
-  float: left;
+.post-content {
+  border: black 1px solid;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.5rem;
   padding: 25px;
 }
 
-/*article img {
-  display: inline-block;
-}*/
-
-main h3  {
-  font-size: 1.5rem;
-}
-
-#top-cats {
-  width: 30%;
+.top-cats {
+  width: 20%;
   float: right;
-  border: black 2px solid;
-  padding: 25px 50px 50px 50px;
+  border: black 3px solid;
+  padding: 25px;
+  margin: 25px 75px 0 0;
 }
 
-#top-cats p{
+.top-cats p{
   float: right;
+  border: none;
 }
 
-#top-cats img {
+.top-cats img {
   border-radius: 50%;
 }
 
