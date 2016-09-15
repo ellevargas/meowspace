@@ -86,17 +86,30 @@ p {
   width: 20%;
   float: right;
   border: black 3px solid;
-  padding: 25px;
-  margin: 25px 75px 0 0;
+  padding: 15px;
+  margin: 25px 50px 0 0;
+}
+
+.top-cats h2 {
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+.top-cats h3 {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: -10px;
+  text-decoration: underline;
 }
 
 .top-cats p{
-  float: right;
   border: none;
 }
 
 .top-cats img {
+  float: left;
   border-radius: 50%;
+  padding: 20px;
 }
 
 footer {
