@@ -1,0 +1,135 @@
+body {
+  font-family: garamond;
+  font-size: 14px;
+  text-align: left;
+}
+
+header {
+  height: 125px;
+  background-color: #ffd480;
+  padding: 50px 75px 10px 75px;
+  }
+
+header h1 {
+  font-size: 4rem;
+  float: left;
+  vertical-align: middle;
+  padding: 5px 0 0 0;
+}
+
+/*
+nav ul {
+  vertical-align: middle;
+  padding: 0 15px 0 15px;
+}*/
+
+nav li {
+  padding: 0 0 0 50px;
+  margin: 25px 0 0 0;
+  text-align: right;
+  vertical-align: middle;
+  float: right;
+  display: inline-block;
+
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+main {
+  clear: both;
+  padding: 0px 25px 25px 25px;
+  margin: 10px 75px 50px 50px;
+}
+
+main h1 {
+  font-size: 2.25rem;
+  margin-bottom: -15px;
+}
+
+main h2 {
+  font-size: 1.75rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+article {
+  border: black 2px solid;
+  padding: 20px
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h3~p {
+  border: black 1px solid;
+  font-size: 1.5rem;
+  padding: 10px
+}
+
+.posts {
+  width: 60%;
+  float: left;
+  padding: 25px;
+}
+
+/*article img {
+  display: inline-block;
+}*/
+
+main h3  {
+  font-size: 1.5rem;
+}
+
+#top-cats {
+  width: 30%;
+  float: right;
+  border: black 2px solid;
+  padding: 15px;
+}
+
+#top-cats p{
+  float: right;
+}
+
+#top-cats img {
+  border-radius: 50%;
+}
+
+footer {
+  padding: 10px;
+  margin: 10px 75px 50px 50px;
+  clear: both;
+  height: 250px;
+  /*background-color: #ffd480;*/
+}
+
+footer a {
+    /*padding: 0 0 0 50px;
+    margin: 0 0 50px 15px;*/
+    text-align: right;
+    font-size: 1.5rem;
+    list-style: none;
+    float: right;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#disclaimer {
+  text-align: center;
+}
+
+h4 {
+  position: relative;
+  width: 20%;
+  display: inline-block;
+  font-size: 1.75rem;
+}
+
+/** {
+   border: black 1px solid;
+ }*/
