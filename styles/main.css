@@ -33,9 +33,23 @@ header a {
   background-color: white;
 }
 
+header a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #551a8b;
+}
+
+main a:visited {
+  color: #551a8b;
+  text-decoration: none;
+  font-style: italic;
+}
+
 main h1 {
   font-size: 2.75rem;
-  margin: 50px 0 0 75px;
+  margin: 35px 0 0 75px;
 }
 
 #subheader {
@@ -50,6 +64,8 @@ main h2 {
 article {
   border: black 3px solid;
   padding: 25px 50px 50px 50px;
+  margin-bottom: 25px;
+  background-color: #ADE6D8;
 }
 
 .posts {
@@ -69,17 +85,19 @@ h3~p {
   font-weight: bold;
   padding: 10px;
   margin: 0 0 25px 0;
-  background-color: #ADE6D8;
+  background-color: white;
 }
 
 .post-content {
   border: black 1px solid;
-  padding: 10px;
+  padding: 15px;
+  background-color: white;
 }
 
 p {
   font-size: 1.5rem;
   padding: 25px;
+  background-color: white;
 }
 
 .top-cats {
@@ -88,6 +106,7 @@ p {
   border: black 3px solid;
   padding: 15px;
   margin: 25px 50px 0 0;
+  background-color: #ADE6D8;
 }
 
 .top-cats h2 {
@@ -97,18 +116,20 @@ p {
 
 .top-cats section {
   border: black 1px solid;
-  background-color: #ADE6D8;
+  background-color: white;
 }
 
 .top-cats h3 {
   text-align: center;
   margin-left: 50px;
   margin-bottom: -10px;
+  margin-top: 10px;
   text-decoration: underline;
 }
 
 .top-cats p{
   border: none;
+  background-color: white;
 }
 
 .top-cats img {
@@ -156,13 +177,17 @@ footer a {
     background-color: white;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 #disclaimer {
   text-align: left;
   display: inline-block;
   width: 25%;
   font-size: 1rem;
-  padding: 0;
-  margin-top: 30px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 /** {
