@@ -1,0 +1,151 @@
+body {
+  font-family: garamond;
+  font-size: 14px;
+  text-align: left;
+}
+
+header {
+  height: 125px;
+  background-color: #ADE6D8;
+  padding: 50px 75px 10px 75px;
+  }
+
+#meowspace {
+  font-size: 4rem;
+  float: left;
+  padding: 5px 0 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+#meowspace:hover {
+  font-size: 4rem;
+  float: left;
+  padding: 5px 0 0 0;
+  background-color: none;
+  color: #551a8b;
+  text-decoration: underline;
+}
+
+header li {
+  padding: 0 0 0 50px;
+  margin: 25px 0 0 0;
+  text-align: right;
+  float: right;
+  display: inline-block;
+}
+
+header nav a {
+  font-weight: bold;
+  font-size: 2rem;
+  border: black 3px solid;
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+  color: #551a8b;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main a:visited {
+  color: #551a8b;
+  text-decoration: none;
+  font-style: italic;
+}
+
+section h2, h3 {
+  text-align: left;
+  margin-left: 40px
+}
+
+section h2 {
+  font-size: 3.75rem;
+  margin: 40px 0 -50px 200px;
+  /*text-align: center;*/
+}
+
+section h3 {
+  font-size: 3rem;
+  padding: -25px 0 25px 0;
+  margin-left: 300px;
+  /*text-align: center;*/
+}
+
+#hero {
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  top: 185px;
+}
+
+#hero-title {
+  padding: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+#hero-author {
+  position: relative;
+  z-index: 2;
+}
+
+section p {
+  margin-top:
+}
+
+
+
+
+footer {
+  clear: both;
+  height: 175px;
+  background-color: #ADE6D8;
+}
+
+footer nav {
+  width: 45%;
+  display: inline-block;
+}
+
+h4 {
+  font-size: 2.5rem;
+  float: left;
+  margin-top: 65px;
+  margin-left: 75px;
+  width: 15%;
+}
+
+footer li {
+  padding: 0 0 0 60px;
+  margin: 0 -60px 35px 50px;
+  text-align: right;
+  float: right;
+  display: inline-block;
+}
+
+footer a {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: black 3px solid;
+    padding: 10px;
+    background-color: white;
+    color: #551a8b;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #551a8b;
+}
+
+#disclaimer {
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 20px;
+}
